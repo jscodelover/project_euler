@@ -20,7 +20,7 @@ function multiple(n) {
   return n;
 }
 
-function largest_prime_factor() {
+function largest_prime_factor(dividend) {
   let divisior = dividend;
   let result;
 
@@ -32,5 +32,5 @@ function largest_prime_factor() {
   return result;
 }
 
-const result = largest_prime_factor();
+const result = largest_prime_factor(600851475143);
 console.log(result);
