@@ -7,7 +7,6 @@
  * @function fib_series - calculate the sum of Fibonacci sequence whose values do not
  * exceed four million
  * @returns {number} sum - sum of Even Fibonacci numbers
- *
  */
 
 function fib_series() {
