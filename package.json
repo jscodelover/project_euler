@@ -1,0 +1,24 @@
+{
+  "name": "project_euler",
+  "version": "1.0.0",
+  "description": "Project Eular questions solved in Javascript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscodelover/project_euler.git"
+  },
+  "keywords": [
+    "project euler",
+    "javascript",
+    "questions"
+  ],
+  "author": "jscodelover",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jscodelover/project_euler/issues"
+  },
+  "homepage": "https://github.com/jscodelover/project_euler#readme"
+}
