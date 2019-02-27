@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jscodelover/project_euler/issues"
   },
-  "homepage": "https://github.com/jscodelover/project_euler#readme"
+  "homepage": "https://github.com/jscodelover/project_euler#readme",
+  "devDependencies": {
+    "jsdoc": "^3.5.5"
+  }
 }
