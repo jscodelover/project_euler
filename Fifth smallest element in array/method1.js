@@ -3,10 +3,13 @@
 /**
  * @Author : JsCodeLover
  * @Problem : Find the 5th smallest element in the array.
- * @function largest_fifth_no - find the 5th smallest element using the concept of finding the first
+ */
+
+/**
+ * @function largest_fifth_no  find the 5th smallest element using the concept of finding the first
  *  five smallest elements in array.
- * @param {array} arr - array from which 5th element is to be find.
- * @returns {number} n5 - 5th smallest element
+ * @param {array} arr  array from which 5th element is to be find
+ * @returns {number} n5  5th smallest element
  */
 
 function largest_fifth_no(arr) {

@@ -3,10 +3,12 @@
  * @Author : JsCodeLover
  * @Problem : A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
    Find the largest palindrome made from the product of two 3-digit numbers.
- * @function isPalindrome - take a number and check if it is palindrome or not.
- * @return {number} big - the largest palindrome product made using 3 digit numbers
  */
 
+/**
+ * @function largest_palindrome find the largest palindrome
+ * @return {number} big - the largest palindrome product made using 3 digit numbers
+ */
 function largest_palindrome() {
   let big = 0;
   for (let i = 999; i >= 100; i--) {
@@ -21,6 +23,11 @@ function largest_palindrome() {
   return big;
 }
 
+/**
+ * @function isPalindrome check is number is palindrome or not.
+ * @param {number} num is number
+ * @returns {boolean} if a number is palindrome or not
+ */
 function isPalindrome(num) {
   let rev = "";
   for (let d of num.toString()) {
