@@ -46,3 +46,5 @@ function largest_fifth_no(arr) {
 
 const result = largest_fifth_no([9, 8, 5, 1, 7, 3, 6, 2]);
 console.log(`5th smallest element: ${result}`);
+
+module.exports = largest_fifth_no;
