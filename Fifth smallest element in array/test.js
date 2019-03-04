@@ -31,6 +31,6 @@ test("5th largest Number in 20 number", () => {
       61,
       99,
       10
-    ]).toBe(10)
-  );
+    ])
+  ).toBe(10);
 });
