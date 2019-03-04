@@ -19,29 +19,28 @@ function largest_fifth_no(arr) {
   let n4 = null;
   let n5 = null;
   for (let ele of arr) {
-    if (!n1 || n1 > ele) {
+    if (n1 === null || n1 > ele) {
       n5 = n4;
       n4 = n3;
       n3 = n2;
       n2 = n1;
       n1 = ele;
-    } else if (!n2 || n2 > ele) {
+    } else if (n2 === null || n2 > ele) {
       n5 = n4;
       n4 = n3;
       n3 = n2;
       n2 = ele;
-    } else if (!n3 || n3 > ele) {
+    } else if (n3 === null || n3 > ele) {
       n5 = n4;
       n4 = n3;
       n3 = ele;
-    } else if (!n4 || n4 > ele) {
+    } else if (n4 === null || n4 > ele) {
       n5 = n4;
       n4 = ele;
-    } else {
+    } else if (n5 === null || n5 > ele) {
       n5 = ele;
     }
   }
-  return n5;
 }
 
 const result = largest_fifth_no([9, 8, 5, 1, 7, 3, 6, 2]);
