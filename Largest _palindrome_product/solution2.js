@@ -3,7 +3,6 @@
  * @Author : JsCodeLover
  * @Problem : A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
    Find the largest palindrome made from the product of two 3-digit numbers.
- *
  * @description :
  *   The palindrome can be written as:
  *   abccba
@@ -14,12 +13,12 @@
  *   Factoring out 11, you get:
  *   11(9091a + 910b + 100c)
  *   So the palindrome must be divisible by 11.  Seeing as 11 is prime, at least one of the numbers must be divisible by 11.
- * 
+ *
  */
 
 /**
- * @function isPalindrome  take a number and check if it is palindrome or not.
- * @return {number} max  the largest palindrome product made using 3 digit numbers.
+ * @function isPalindrome - take a number and check if it is palindrome or not.
+ * @return {number} max - the largest palindrome product made using 3 digit numbers.
  */
 
 function largest_palindrome() {
@@ -37,8 +36,8 @@ function largest_palindrome() {
 }
 
 /**
- * @function isPalindrome check is number is palindrome or not.
- * @param {number} num is number
+ * @function isPalindrome - check is number is palindrome or not.
+ * @param {number} num - is number
  * @returns {boolean} if a number is palindrome or not
  */
 

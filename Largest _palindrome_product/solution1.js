@@ -6,7 +6,7 @@
  */
 
 /**
- * @function largest_palindrome find the largest palindrome
+ * @function largest_palindrome - find the largest palindrome
  * @return {number} big - the largest palindrome product made using 3 digit numbers
  */
 function largest_palindrome() {
@@ -24,9 +24,9 @@ function largest_palindrome() {
 }
 
 /**
- * @function isPalindrome check is number is palindrome or not.
- * @param {number} num is number
- * @returns {boolean} if a number is palindrome or not
+ * @function isPalindrome - check is number is palindrome or not.
+ * @param {number} num - is number
+ * @returns {boolean} - if a number is palindrome or not
  */
 function isPalindrome(num) {
   let rev = "";

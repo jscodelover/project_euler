@@ -7,8 +7,8 @@
 */
 
 /**
- * @function multiple  find the first multiple of argument n. eg(first multiple of 16 is 2.)
- * @param {number} n  for which multiple is to be found.
+ * @function multiple - find the first multiple of argument n. eg(first multiple of 16 is 2.)
+ * @param {number} n - for which multiple is to be found.
  */
 function multiple(n) {
   for (let i = 2; i <= n / 2; i++) {
@@ -20,9 +20,9 @@ function multiple(n) {
 }
 
 /**
- * @function largest_prime_factor  find th largest prime factor
- * @param {*} dividend the number whose prime factor is to be found
- * @returns {number} result  largest prime factor
+ * @function largest_prime_factor - find th largest prime factor
+ * @param {*} dividend - the number whose prime factor is to be found
+ * @returns {number} result - largest prime factor
  */
 
 function largest_prime_factor(dividend) {

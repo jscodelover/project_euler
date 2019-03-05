@@ -6,7 +6,7 @@
  */
 
 /**
- * @function multiple find the multiple of 3 or 5
+ * @function multiple - find the multiple of 3 or 5
  * @returns {number} sum - sum of all the multiples of 3 or 5.
  */
 
