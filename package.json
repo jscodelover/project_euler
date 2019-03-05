@@ -4,7 +4,8 @@
   "description": "Project Eular questions solved in Javascript",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "doc": "jsdoc -c config.json"
   },
   "repository": {
     "type": "git",
